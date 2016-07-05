@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jeg har aldrig - Drukspil</title>
+    <title>Never have I ever - Get Drunk</title>
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300' rel='stylesheet' type='text/css'>
 
@@ -61,12 +61,12 @@
                     <div class="col-md-8 col-sm-8">
                         <div class="home_text">
                             <!-- Game itself -->
-                            <h1>Jeg har aldrig...</h1> 
+                            <h1>Never have I ever...</h1> 
                            <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script>
     $(document).ready(function(){
         $("#button").click(function(){
-          $("svar").load("random.php",function(responseTxt,statusTxt,xhr){
+          $("question").load("random.php",function(responseTxt,statusTxt,xhr){
             if(statusTxt=="error")
               alert("Error: "+xhr.status+": "+xhr.statusText);
           });
@@ -74,7 +74,7 @@
     $("#button").click();   //loads random.php once at page load
     });
     </script>
-   <svar></svar>
+   <question></question>
 
                             <div class="download-btn">
                             <!-- BUTTON -->
