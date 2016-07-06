@@ -20,3 +20,5 @@ This will automatic send the question to the mysql database.
 Translation for english will come soon.
 
 EVERYTHING IS IN DANISH RIGHT NOW!
+
+Thanks to https://github.com/puikinsh/gentelella for an awesome admin panel!
