@@ -1,5 +1,5 @@
 # Neverever
-This is a small "Never Have I Ever" game-project. 
+This is a small "Never Have I Ever" html/css game-project. 
 
 I made this because i am learning to code and i just wanted to make something.
 
