@@ -12,4 +12,5 @@ Responsive and it gets questions from mysql database.
 You can make your own question in the database table "svar" itself or in the "Login" folder if running on a server (for php).
 
 
-Translation for english will come soon. 
+Translation for english will come soon.
+EVERYTHING IS IN DANISH RIGHT NOW!
