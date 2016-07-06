@@ -13,4 +13,5 @@ You can make your own question in the database table "svar" itself or in the "Lo
 
 
 Translation for english will come soon.
+
 EVERYTHING IS IN DANISH RIGHT NOW!
