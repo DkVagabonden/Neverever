@@ -53,7 +53,7 @@
               <div class="menu_section">
                 <h3>Menu</h3>
                 <ul class="nav side-menu">
-                  <li><a href="index.php"><em class="fa fa-home"></em> Home </a> </li>
+                  <li><a href="index.php"><em class="fa fa-home"></em> Home</a> </li>
                   <li><a href="form.php"><i class="fa fa-edit"></i> New Question</a> </li>
                   <li><a href="register.php"><i class="fa fa-beer"></i> New User</a> </li>
 
