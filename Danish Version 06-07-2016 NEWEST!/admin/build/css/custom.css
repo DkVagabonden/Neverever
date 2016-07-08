@@ -4126,3 +4126,11 @@ ul.notifications {
   border: 1px solid #e5e5e5; }
 
 /** /Dropzone.js **/
+
+
+
+/** PHP-Login Config **/
+.form-signin input[type="text"], .form-signup input[type="text"] {
+}
+.form-signin input[type="password"], .form-signup input[type="password"] {
+}

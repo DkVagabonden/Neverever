@@ -60,35 +60,36 @@
                 <div class="row">
                     <div class="col-md-8 col-sm-8">
                         <div class="home_text">
-                            <!-- Game itself -->
+                            <!-- Game section starts here -->
                             <h1>Jeg har aldrig...</h1> 
+                            
                            <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script>
-    $(document).ready(function(){
-        $("#button").click(function(){
-          $("svar").load("random.php",function(responseTxt,statusTxt,xhr){
-            if(statusTxt=="error")
-              alert("Error: "+xhr.status+": "+xhr.statusText);
-          });
-        });
-    $("#button").click();   //loads random.php once at page load
-    });
-    </script>
-   <svar></svar>
+    							<script>
+   									$(document).ready(function(){
+     								   $("#button").click(function(){
+       									   $("question").load("mysql/random.php",function(responseTxt,statusTxt,xhr){
+        									    if(statusTxt=="error")
+           										   alert("Error: "+xhr.status+": "+xhr.statusText);
+         									 });
+      								});
+    								$("#button").click();   //loads random.php once at page load
+    								});
+    							</script>
+   									<question></question>
 
-                            <div class="download-btn">
+                            <div class="game-btn">
                             <!-- BUTTON -->
                                 <button id="button" class="btn home-btn wow fadeInLeft">Nyt spørgsmål</button>
 								<script>
-    $(function (){
-            $('#button').click(function(){
-            var request = $.ajax({
-                                    type: "POST",
-                                    url: "klik.php"                               
-                                  });
-            });
-    });
-    </script>
+    								$(function (){
+          							  $('#button').click(function(){
+           								 var request = $.ajax({
+                                    		type: "POST",
+                                   				 url: "mysql/klik.php"                               
+                                  		 });
+            						  });
+   						 			});
+    							</script>
                             </div>
                         </div>
                     </div>

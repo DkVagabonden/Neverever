@@ -15,3 +15,5 @@ You can make your own question in the database table "svar" itself or in the "Lo
 =======
 
 Thanks to https://github.com/puikinsh/gentelella for an awesome admin panel!
+Thanks to https://github.com/PHPMailer/PHPMailer for PHPMailer!
+Thanks to https://github.com/fethica/PHP-Login for PHP-Login!
