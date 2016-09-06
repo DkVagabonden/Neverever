@@ -6,7 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jeg har aldrig - Drukspil</title>
+    
+    
+    <!-- Mysql -->
+    <?php include("mysql/info.php");?>
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300' rel='stylesheet' type='text/css'>
 
@@ -35,6 +38,9 @@
 	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
+    
+    <title><?php echo "$page_name"; ?> - Drukspil</title>
+    
 </head>
 
 <body>
@@ -61,7 +67,7 @@
                     <div class="col-md-8 col-sm-8">
                         <div class="home_text">
                             <!-- Game section starts here -->
-                            <h1>Jeg har aldrig...</h1> 
+                            <h1><?php echo "$page_name"; ?>...</h1> 
                             
                            <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     							<script>
