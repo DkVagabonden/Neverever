@@ -1,5 +1,5 @@
 -- --------------------------------------------------------
--- Host:                         127.0.0.1
+-- Host:                         localhost
 -- Server version:               10.1.13-MariaDB - mariadb.org binary distribution
 -- Server OS:                    Win32
 -- HeidiSQL Version:             9.3.0.4984
@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `members` (
   UNIQUE KEY `email_UNIQUE` (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- Dumping data for table neverever.members: ~7 rows (approximately)
+-- Dumping data for table neverever.members: ~15 rows (approximately)
 /*!40000 ALTER TABLE `members` DISABLE KEYS */;
 INSERT INTO `members` (`id`, `username`, `password`, `email`, `verified`, `mod_timestamp`) VALUES
 	('11025577f9bd8cbf6f', 'test123asdad', '$2y$10$2ALPZQ2308spY/QdzlTwkuQYiPaYwOv1L4tO8Hi518cg3xGwjwIuW', 'vaga@it.dkasdadsad', 0, '2016-07-08 14:26:01'),
@@ -77,7 +77,7 @@ CREATE TABLE IF NOT EXISTS `questions` (
   `Time added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   UNIQUE KEY `questions` (`questions`)
-) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=latin1;
 
 -- Dumping data for table neverever.questions: ~29 rows (approximately)
 /*!40000 ALTER TABLE `questions` DISABLE KEYS */;
@@ -129,7 +129,7 @@ CREATE TABLE IF NOT EXISTS `shown` (
 -- Dumping data for table neverever.shown: ~1 rows (approximately)
 /*!40000 ALTER TABLE `shown` DISABLE KEYS */;
 INSERT INTO `shown` (`id`, `shown`, `Last time clicked`) VALUES
-	(1, 148, '2016-07-08 13:19:45');
+	(1, 157, '2016-07-08 15:25:20');
 /*!40000 ALTER TABLE `shown` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
