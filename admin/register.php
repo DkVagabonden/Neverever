@@ -268,7 +268,7 @@
                       <div class="ln_solid"></div>
                       <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                          <button class="btn btn-success btn btn-lg btn-primary btn-block" name="Submit" id="submit" type="submit">Submit </button> 
+                          <button class="btn btn-success btn btn-lg btn-primary btn-block" name="Submit" id="submit" type="submit">Register</button> 
                           </div>
                           <div id="message"></div>
                         </div>
