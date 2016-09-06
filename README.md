@@ -26,3 +26,5 @@ Thanks to https://github.com/puikinsh/gentelella for an awesome admin panel!
 Thanks to https://github.com/PHPMailer/PHPMailer for PHPMailer!
 
 Thanks to https://github.com/fethica/PHP-Login for PHP-Login!
+
+Last time updated 06-09-2016 (Not being updated for the moment)
