@@ -1,7 +1,6 @@
 # Neverever
 This is a small "Never Have I Ever" game-project. 
-
-i made this just for fun.
+Live version at http://neverever.96.lt/
 
 
 Features
